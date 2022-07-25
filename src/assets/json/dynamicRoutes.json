@@ -1,0 +1,44 @@
+[
+  {
+    "path": "/index",
+    "meta": {
+      "title": "首页",
+      "icon": "Chicken"
+    }
+  },
+  {
+    "path": "/animation",
+    "meta": {
+      "title": "动画",
+      "icon": "Cherry"
+    }
+  },
+  {
+    "path": "/icons",
+    "meta": {
+      "title": "图标",
+      "icon": "Cpu"
+    }
+  },
+  {
+    "path": "/selectLinkage",
+    "meta": {
+      "title": "选择联动",
+      "icon": "Dish"
+    }
+  },
+  {
+    "path": "/form",
+    "meta": {
+      "title": "Json表单",
+      "icon": "AlarmClock"
+    }
+  },
+  {
+    "path": "/util",
+    "meta": {
+      "title": "工具函数",
+      "icon": "AlarmClock"
+    }
+  }
+]
