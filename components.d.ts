@@ -32,7 +32,7 @@ declare module '@vue/runtime-core' {
     MenuItem: typeof import('./src/components/common/Aside/MenuItem.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Src: typeof import('./src/components/common/baseArea/src/index.vue')['default']
+    Src: typeof import('./src/components/button/src/index.vue')['default']
   }
 }
 

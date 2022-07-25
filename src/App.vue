@@ -8,9 +8,10 @@
   </div>
 </template>
 <script lang="ts" setup>
-import tButton from "components/button/index.vue"
+import tButton from "@/components/button/src/index.vue"
 const dd= (e:HTMLButtonElement)=>{
   console.log(e)
+  console.log(tButton.name)
 }
 </script>
 

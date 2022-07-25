@@ -5,9 +5,12 @@
         </el-button>
     </div>
 </template>
-
+<script lang="ts">
+export default {
+    name: "TButton"
+}
+</script>
 <script lang="ts" setup>
-
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import { DefineComponent, ref, shallowRef, useAttrs } from 'vue';
 type Iicon = keyof typeof ElementPlusIconsVue
@@ -25,10 +28,10 @@ if (iconName) {
     icon.value = ElementPlusIconsVue[iconName] || '';
 }
 
-let emit= defineEmits<{
-    (e:'click',event:HTMLButtonElement):void
+let emit = defineEmits<{
+    (e: 'click', event: HTMLButtonElement): void
 }>()
-const  handleClick = (e:HTMLButtonElement)=>{
-    emit("click",e)
+const handleClick = (e: HTMLButtonElement) => {
+    emit("click", e)
 }
 </script>
