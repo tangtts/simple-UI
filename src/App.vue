@@ -1,30 +1,27 @@
 <template>
-  <div>
+  <div class="darkBg bg-red-200 text-gray-900">
     <t-button 
     @click="dd"
-    color="#626aef"
     iconName="Edit"
     >daa</t-button>
   </div>
 </template>
 <script lang="ts" setup>
-import tButton from "@/components/button/src/index.vue"
+import tButton from "../packages/button/src/index.vue"
+import tMeesage from "../packages/Message/index"
 const dd= (e:HTMLButtonElement)=>{
-  console.log(e)
-  console.log(tButton.name)
+  // console.log(tButton.name)
+  tMeesage({
+    center:false,
+    type:"primary"
+  })
 }
 </script>
 
 <style lang="scss">
 html,
 body,
-#app {
-  height: 100vh;
-  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB,
-    Microsoft YaHei, Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+
 
 .darkBg {
   @apply dark:bg-slate-900 dark:text-white;

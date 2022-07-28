@@ -1,6 +1,10 @@
 <template>
     <div>
-        <el-button @click="handleClick" :icon="icon" :type="type" v-bind="$attrs">
+        <el-button 
+        @click="handleClick" 
+        :icon="icon" 
+        :type="type" 
+        v-bind="$attrs">
             <slot />
         </el-button>
     </div>

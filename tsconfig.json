@@ -15,10 +15,18 @@
       "@/*":["src/*"],
       "types/*":["src/types/*"],
       "store/*":["src/store/*"],
-      "components/*":["src/components/*"],
+      "components/*":["packages/components/*"],
     },
     "types": ["element-plus/global"]
   },
   "exclude": ["node_modules"],
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue","src/*.ts"]
+  "include": [
+    "src/**/*.ts", 
+    "src/**/*.d.ts", 
+    "src/**/*.tsx", 
+    "src/**/*.vue",
+    "src/*.ts",
+    "**/*.tsx",
+    "**/**.ts"
+  ]
 }

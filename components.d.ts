@@ -30,6 +30,7 @@ declare module '@vue/runtime-core' {
     ElTabs: typeof import('element-plus/es')['ElTabs']
     Layout: typeof import('./src/components/layout.vue')['default']
     MenuItem: typeof import('./src/components/common/Aside/MenuItem.vue')['default']
+    Message: typeof import('./src/components/Message/index.tsx')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
     Src: typeof import('./src/components/button/src/index.vue')['default']
